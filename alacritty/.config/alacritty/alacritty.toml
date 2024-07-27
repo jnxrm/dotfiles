@@ -1,0 +1,61 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Use the custom fish function 'ct <theme-title>' to change theme.
+# The themes are located in the folder '~/.config/alacritty/themes/themes'.
+# <theme-title> must be without the .toml file extension
+# import = ["~/.config/alacritty/atm_theme.toml"]
+
+shell.program = "/opt/homebrew/bin/fish"
+
+live_config_reload = true
+
+[env]
+# TERM = "alacritty"
+TERM = "xterm-256color"
+
+[window]
+dynamic_padding = false
+startup_mode = "Maximized"
+decorations = "None"
+# opacity = 0.75
+padding = { x = 10, y = 10 }
+dynamic_title = true
+blur = true
+option_as_alt = "OnlyLeft"
+
+[font]
+size = 13.0
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 0, y = 0 }
+normal = { family = "IosevkaTerm Nerd Font Mono", style = "Light"}
+bold = { family = "IosevkaTerm Nerd Font Mono" }
+italic = { family = "IosevkaTerm Nerd Font Mono" }
+bold_italic = { family = "IosevkaTerm Nerd Font Mono" }
+
+[selection]
+save_to_clipboard = true
+
+[bell]
+animation = "EaseOutExpo"
+color = "0xffffff"
+duration = 0
+
+[cursor]
+unfocused_hollow = true
+blink_interval = 600
+style = { shape = "Block", blinking = "Always" }
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
