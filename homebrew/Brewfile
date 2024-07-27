@@ -12,6 +12,9 @@ brew "zellij"
 brew "jrnl"
 brew "stow"
 brew "tldr"
+brew "gitnow"
+brew "mas"
+brew "buku"
 
 cask "alacritty"
 cask "1password"
@@ -37,6 +40,7 @@ cask "middleclick"
 cask "coteditor"
 cask "itsycal"
 cask "cursorcerer"
+cask "font-iosevka-term-nerd-font"
 
 mas "caffeinated", id: 1362171212
 mas "iMovie", id: 408981434
