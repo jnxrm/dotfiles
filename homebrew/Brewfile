@@ -36,6 +36,7 @@ cask "keyboardcleantool"
 cask "middleclick"
 cask "coteditor"
 cask "itsycal"
+cask "cursorcerer"
 
 mas "caffeinated", id: 1362171212
 mas "iMovie", id: 408981434
