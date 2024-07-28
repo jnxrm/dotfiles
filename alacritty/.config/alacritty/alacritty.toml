@@ -15,16 +15,16 @@ TERM = "xterm-256color"
 
 [window]
 dynamic_padding = false
-startup_mode = "Maximized"
-decorations = "None"
-# opacity = 0.75
+startup_mode = "SimpleFullscreen"
+decorations = "Transparent"
+opacity = 0.75
 padding = { x = 10, y = 10 }
 dynamic_title = true
-blur = true
+blur = false
 option_as_alt = "OnlyLeft"
 
 [font]
-size = 13.0
+size = 15.0
 offset = { x = 0, y = 0 }
 glyph_offset = { x = 0, y = 0 }
 normal = { family = "IosevkaTerm Nerd Font Mono", style = "Light"}
