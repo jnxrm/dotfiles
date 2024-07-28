@@ -7,7 +7,7 @@ abbr cal "code ~/.config/alacritty/alacritty.toml"
 
 # Homebrew
 abbr bi "brew install"
-abbr bic "brew install --no-quarantine --cask"
+abbr bic "brew install --cask"
 abbr bcl "brew cleanup"
 abbr bl "brew list"
 abbr bs "brew search"
