@@ -1,5 +1,3 @@
-tap "homebrew/cask-fonts"
-
 brew "aria2"
 brew "git"
 brew "pyenv"
@@ -12,7 +10,6 @@ brew "zellij"
 brew "jrnl"
 brew "stow"
 brew "tldr"
-brew "gitnow"
 brew "mas"
 brew "buku"
 

@@ -11,9 +11,3 @@ fish_add_path -g /Applications/Mathematica.app/Contents/MacOS
 
 # Pyenv
 pyenv init - | source
-
-# 1Password CLI
-op completion fish | source
-
-# zoxide
-zoxide init fish | source
