@@ -1,9 +1,9 @@
 # Abbreviations
 
 # Open in VS Code
-abbr cfs "code ~/.config/fish/config.fish"
-abbr cab "code ~/.config/fish/conf.d/abbr.fish"
-abbr cal "code ~/.config/alacritty/alacritty.toml"
+abbr cfs "code ~/dotfiles/fish/.config/fish/config.fish"
+abbr cab "code ~/dotfiles/fish/.config/fish/conf.d/abbr.fish"
+abbr cal "code ~/dotfiles/alacritty/.config/alacritty/alacritty.toml"
 
 # Homebrew
 abbr bi "brew install"
