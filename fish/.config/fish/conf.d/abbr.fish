@@ -41,8 +41,8 @@ abbr xps13 "ssh jnkrm@192.168.1.21"
 abbr rs "rsync -rvza --rsh='ssh -p1998'"
 
 # eza
-abbr la "eza --long --all --header --icons"
-abbr lt "eza --long --all --header --icons --tree --level=2"
+abbr la "eza -lahi"
+abbr lt "eza -lahiTL=2"
 
 # z
 # abbr cd "z"
