@@ -13,7 +13,7 @@ abbr bcl "brew cleanup"
 abbr bl "brew list"
 abbr bs "brew search"
 abbr brm "brew remove"
-abbr bu "brew update && brew upgrade"
+abbr bu "brew update ; brew upgrade"
 # abbr brow "/usr/local/Homebrew/bin/brew"
 
 # Buku
