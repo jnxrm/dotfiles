@@ -4,6 +4,7 @@
 abbr cfs "code ~/dotfiles/fish/.config/fish/config.fish"
 abbr cab "code ~/dotfiles/fish/.config/fish/conf.d/abbr.fish"
 abbr cal "code ~/dotfiles/alacritty/.config/alacritty/alacritty.toml"
+abbr czsh "code ~/dotfiles/zsh/.zshrc"
 
 # Homebrew
 abbr bi "brew install"
