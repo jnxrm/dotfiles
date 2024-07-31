@@ -1,1 +1,1 @@
-export HOMEBREW_NO_ENV_HINTS=TRUE
+export PATH=/opt/homebrew/bin:$PATH

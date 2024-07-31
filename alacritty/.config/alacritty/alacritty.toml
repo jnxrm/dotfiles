@@ -5,32 +5,36 @@
 # <theme-title> must be without the .toml file extension
 # import = ["~/.config/alacritty/atm_theme.toml"]
 
-shell.program = "/opt/homebrew/bin/fish"
+shell.program = "/bin/zsh"
+# shell.args = ["-l", "-c", "zellij attach || zellij"]
+shell.args = ["-l", "-c", "zellij attach || zellij"]
 
 live_config_reload = true
 
-[env]
+# [env]
 # TERM = "alacritty"
-TERM = "xterm-256color"
-
-[window]
-dynamic_padding = false
-startup_mode = "SimpleFullscreen"
-decorations = "Transparent"
-opacity = 0.75
-padding = { x = 10, y = 10 }
-dynamic_title = true
-blur = false
-option_as_alt = "OnlyLeft"
+# TERM = "xterm-256color"
 
 [font]
-size = 15.0
+size = 14.0
 offset = { x = 0, y = 0 }
 glyph_offset = { x = 0, y = 0 }
 normal = { family = "IosevkaTerm Nerd Font Mono", style = "Light"}
 bold = { family = "IosevkaTerm Nerd Font Mono" }
 italic = { family = "IosevkaTerm Nerd Font Mono" }
 bold_italic = { family = "IosevkaTerm Nerd Font Mono" }
+
+[window]
+# position = {x = 0, y = 0}
+# dimensions = { columns = 107, lines = 53 }
+dynamic_padding = false
+startup_mode = "Windowed"
+decorations = "None"
+opacity = 0.75
+padding = { x = 10, y = 10 }
+dynamic_title = true
+blur = false
+option_as_alt = "OnlyLeft"
 
 [selection]
 save_to_clipboard = true

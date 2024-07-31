@@ -14,6 +14,7 @@ abbr bl "brew list"
 abbr bs "brew search"
 abbr brm "brew remove"
 abbr bu "brew update ; brew upgrade"
+abbr bin "brew info"
 # abbr brow "/usr/local/Homebrew/bin/brew"
 
 # Buku
@@ -28,25 +29,11 @@ abbr rmr "rm -rf"
 # Clear
 abbr cl "clear"
 
-# Mathematica
-abbr maths "MathKernel -script"
-
-# Kira
-# abbr kira "/usr/local/bin/kira"
-# abbr rmk "rm -rf kira.log firefly.log ff_save firefly_saves tmp sectormappings results"
-
-# Login credentials to SSH into Debian server on XPS13
-abbr xps13 "ssh jnkrm@192.168.1.21"
-
-# rsync
-abbr rs "rsync -rvza --rsh='ssh -p1998'"
-
 # eza
-abbr la "eza -lahi"
-abbr lt "eza -lahiTL=2"
-
-# z
-# abbr cd "z"
+abbr ls "eza -1"
+abbr la "eza -1a"
+abbr ll "eza -al"
+abbr lt "eza -aTL=2"
 
 # zellij
 abbr zj "zellij attach || zellij"
