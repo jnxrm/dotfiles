@@ -15,7 +15,6 @@ abbr bs "brew search"
 abbr brm "brew remove"
 abbr bu "brew update ; brew upgrade"
 abbr bin "brew info"
-# abbr brow "/usr/local/Homebrew/bin/brew"
 
 # Buku
 abbr b "buku"
@@ -30,10 +29,14 @@ abbr rmr "rm -rf"
 abbr cl "clear"
 
 # eza
-abbr ls "eza -1"
-abbr la "eza -1a"
-abbr ll "eza -al"
-abbr lt "eza -aTL=2"
+abbr ls "eza"
+abbr la "eza -a"
+abbr ls1 "eza -1"
+abbr la1 "eza -1a"
+abbr ll "eza -l"
+abbr lal "eza -al"
+abbr lst "eza -TL=2"
+abbr lat "eza -aTL=2"
 
 # zellij
 abbr zj "zellij attach || zellij"
@@ -41,6 +44,3 @@ abbr zj "zellij attach || zellij"
 # web-search plugin
 abbr ws "web-search"
 abbr ddg --position anywhere "duckduckgo"
-
-# Path to the iCloud directory
-abbr ic --position anywhere "/Users/jnkrm/Library/Mobile\ Documents/com~apple~CloudDocs"
