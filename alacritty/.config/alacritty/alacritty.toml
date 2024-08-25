@@ -19,10 +19,14 @@ live_config_reload = true
 size = 14.0
 offset = { x = 0, y = 0 }
 glyph_offset = { x = 0, y = 0 }
-normal = { family = "IosevkaTerm Nerd Font Mono", style = "Light"}
-bold = { family = "IosevkaTerm Nerd Font Mono" }
-italic = { family = "IosevkaTerm Nerd Font Mono" }
-bold_italic = { family = "IosevkaTerm Nerd Font Mono" }
+# normal = { family = "IosevkaTerm Nerd Font Mono", style = "Light"}
+# bold = { family = "IosevkaTerm Nerd Font Mono" }
+# italic = { family = "IosevkaTerm Nerd Font Mono" }
+# bold_italic = { family = "IosevkaTerm Nerd Font Mono" }
+normal = { family = "MesloLGS Nerd Font Mono"}
+bold = { family = "MesloLGS Nerd Font Mono" }
+italic = { family = "MesloLGS Nerd Font Mono" }
+bold_italic = { family = "MesloLGS Nerd Font Mono" }
 
 [window]
 # position = {x = 0, y = 0}
