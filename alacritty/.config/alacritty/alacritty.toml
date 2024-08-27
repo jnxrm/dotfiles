@@ -23,10 +23,10 @@ glyph_offset = { x = 0, y = 0 }
 # bold = { family = "IosevkaTerm Nerd Font Mono" }
 # italic = { family = "IosevkaTerm Nerd Font Mono" }
 # bold_italic = { family = "IosevkaTerm Nerd Font Mono" }
-normal = { family = "MesloLGS Nerd Font Mono"}
-bold = { family = "MesloLGS Nerd Font Mono" }
-italic = { family = "MesloLGS Nerd Font Mono" }
-bold_italic = { family = "MesloLGS Nerd Font Mono" }
+normal = { family = "CaskaydiaMono Nerd Font Mono"}
+bold = { family = "CaskaydiaMono Nerd Font Mono" }
+italic = { family = "CaskaydiaMono Nerd Font Mono" }
+bold_italic = { family = "CaskaydiaMono Nerd Font Mono" }
 
 [window]
 # position = {x = 0, y = 0}
