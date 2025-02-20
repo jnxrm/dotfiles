@@ -44,3 +44,7 @@ abbr zj "zellij attach || zellij"
 # web-search plugin
 abbr ws "web-search"
 abbr ddg --position anywhere "duckduckgo"
+
+# aria2c
+abbr a2m "aria2c -d ~/Movies"
+abbr a2tv "aria2c -d ~/Movies/TV"
